@@ -23,5 +23,10 @@ public class Cat {
         this.weight = weight;
         this.whiskers = whiskers;
     }
+
+    @Override
+    public String toString() {
+        return "Cat(" + "name=" + name + ')';
+    }
     
 }

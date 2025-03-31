@@ -5,6 +5,7 @@
 package main;
 
 import core.Dog;
+import core.Cat;
 import core.Person;
 
 /**
@@ -19,6 +20,9 @@ public class Main {
         
         Dog dog = new Dog("Lucas", 5, 0.84, 26.14, "labrador");
         System.out.println(dog);
+        
+        Cat cat = new Cat("Michi", 3, 0.38, 11.68, true);
+        System.out.println(cat);
     }
     
 }
