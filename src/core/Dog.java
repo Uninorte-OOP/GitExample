@@ -23,5 +23,10 @@ public class Dog {
         this.weight = weight;
         this.race = race;
     }
+
+    @Override
+    public String toString() {
+        return "Dog(" + "name=" + name + ')';
+    }
     
 }
