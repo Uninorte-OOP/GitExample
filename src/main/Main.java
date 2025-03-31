@@ -4,6 +4,7 @@
  */
 package main;
 
+import core.Cat;
 import core.Person;
 
 /**
@@ -15,6 +16,9 @@ public class Main {
     public static void main(String[] args) {
         Person person = new Person(1548845899L, "Juan Perez", 23);
         System.out.println(person);
+        
+        Cat cat = new Cat("Michi", 3, 0.38, 11.68, true);
+        System.out.println(cat);
     }
     
 }
